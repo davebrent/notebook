@@ -1,0 +1,15 @@
+[package]
+name = "notebook"
+version = "0.1.0"
+authors = ["Dave Poulter <hello@davepoulter.net>"]
+edition = "2018"
+
+[dependencies]
+anyhow = "1.0.38"
+getopts = "0.2.21"
+handlebars = "3.5.2"
+pikchr = "0.1.0"
+pulldown-cmark = { version="0.8.0", default-features = false }
+serde_json = "1.0.61"
+tokio = { version = "0.2", features = ["full"] }
+warp = "0.2"
